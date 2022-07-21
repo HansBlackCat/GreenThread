@@ -30,12 +30,12 @@ public:
   uint64_t r14 = 0;  ///< temporary register
   uint64_t r15 = 0;  ///< temporary register
 
-  Register() = delete;
+  Register() = default;
   explicit Register(uint64_t stack_pointer);
   Register(const Register&) = delete;
   Register(Register &&) = delete;
   Register &operator=(const Register &) = delete;
-  Register &operator=(Register &&) = delete;
+  Register &operator=(Register &&) = default;
 };
 
 

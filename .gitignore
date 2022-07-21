@@ -1,4 +1,5 @@
 /build*
 /.vscode
 /cpm_modules
+/.idea
 .DS_Store
