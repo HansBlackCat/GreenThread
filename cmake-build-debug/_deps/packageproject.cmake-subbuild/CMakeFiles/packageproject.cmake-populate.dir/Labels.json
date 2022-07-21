@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/CMakeFiles/packageproject.cmake-populate"
+		},
+		{
+			"file" : "/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/CMakeFiles/packageproject.cmake-populate.rule"
+		},
+		{
+			"file" : "/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/CMakeFiles/packageproject.cmake-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-build.rule"
+		},
+		{
+			"file" : "/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-download.rule"
+		},
+		{
+			"file" : "/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-install.rule"
+		},
+		{
+			"file" : "/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-test.rule"
+		},
+		{
+			"file" : "/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"packageproject.cmake-populate"
+		],
+		"name" : "packageproject.cmake-populate"
+	}
+}

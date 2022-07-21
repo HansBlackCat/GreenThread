@@ -1,0 +1,21 @@
+# ninja log v5
+0	67	1658373279147405243	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	52077e5b7649f0c1
+0	67	1658373279147405243	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	52077e5b7649f0c1
+67	2551	1658373281631647446	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	99a3f038a2add1b5
+67	2551	1658373281631647446	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	99a3f038a2add1b5
+2551	2607	0	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	e6b31e00c825e93b
+2551	2607	0	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	e6b31e00c825e93b
+2607	2632	1658373281712392478	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	c701e14b60168f9
+2607	2632	1658373281712392478	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	c701e14b60168f9
+2632	2652	1658373281732691591	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	c1cf6eed01184b66
+2632	2652	1658373281732691591	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	c1cf6eed01184b66
+2652	2674	1658373281753738239	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	c661c5c1a6e291c8
+2652	2674	1658373281753738239	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	c661c5c1a6e291c8
+2674	2697	1658373281777958410	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	aaa37b4e7b76407
+2674	2697	1658373281777958410	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	aaa37b4e7b76407
+2697	2716	1658373281796856282	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	8a76893de71c9b30
+2697	2716	1658373281796856282	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	8a76893de71c9b30
+2716	2746	1658373281826645083	CMakeFiles/fmt-populate-complete	e2356efa36c96190
+2716	2746	1658373281826645083	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	e2356efa36c96190
+2716	2746	1658373281826645083	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/fmt-subbuild/CMakeFiles/fmt-populate-complete	e2356efa36c96190
+2716	2746	1658373281826645083	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	e2356efa36c96190

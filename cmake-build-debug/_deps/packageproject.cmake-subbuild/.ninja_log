@@ -1,0 +1,21 @@
+# ninja log v5
+0	68	1658373277722408205	packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-mkdir	65edffa06c7a6ce9
+0	68	1658373277722408205	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-mkdir	65edffa06c7a6ce9
+68	1179	1658373278833419060	packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-download	5a3f21a6ee3aa7ce
+68	1179	1658373278833419060	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-download	5a3f21a6ee3aa7ce
+1179	1222	0	packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-update	1ffa002ae89f19bd
+1179	1222	0	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-update	1ffa002ae89f19bd
+1222	1241	1658373278895650866	packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-patch	1515a36b381097b4
+1222	1241	1658373278895650866	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-patch	1515a36b381097b4
+1241	1259	1658373278913808958	packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-configure	5649cc4dd5ef94c4
+1241	1259	1658373278913808958	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-configure	5649cc4dd5ef94c4
+1259	1277	1658373278932005337	packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-build	445a0b96a3a812fd
+1259	1277	1658373278932005337	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-build	445a0b96a3a812fd
+1277	1296	1658373278950790350	packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-install	d876fb92171336e8
+1277	1296	1658373278950790350	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-install	d876fb92171336e8
+1296	1315	1658373278970316646	packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-test	60e2abd8c7d7e897
+1296	1315	1658373278970316646	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-test	60e2abd8c7d7e897
+1315	1342	1658373278997352727	CMakeFiles/packageproject.cmake-populate-complete	aa5353ea5f47ed69
+1315	1342	1658373278997352727	packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-done	aa5353ea5f47ed69
+1315	1342	1658373278997352727	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/CMakeFiles/packageproject.cmake-populate-complete	aa5353ea5f47ed69
+1315	1342	1658373278997352727	/Users/hansblackcat/Isolated_Documents/Dev/BUILDTEST/CMakeTest/GreenThread/cmake-build-debug/_deps/packageproject.cmake-subbuild/packageproject.cmake-populate-prefix/src/packageproject.cmake-populate-stamp/packageproject.cmake-populate-done	aa5353ea5f47ed69
