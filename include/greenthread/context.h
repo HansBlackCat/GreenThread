@@ -26,6 +26,7 @@ public:
   Context(Context &&) = delete;
   Context &operator=(const Context &) = delete;
   Context &operator=(Context &&) = delete;
+  ~Context();
   
   Context(uint64_t stack_size, pid_t tid, RoutineEntry fun);
 };

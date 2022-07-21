@@ -1,13 +1,12 @@
 #include <greenthread/context.h>
 #include <malloc.h>
 
-#include <memory>
 #include <utility>
 #include <sys/mman.h>
 
 
 Context::Context(uint64_t stack_size, pid_t thread_id, RoutineEntry fun)
-    : page_size_{SystemUtil::get_pagesize()}, 
+    : page_size_{SystemUtil::getPagesize()}, 
       tid{thread_id}, 
       routineEntry{std::move(fun)}
 {
@@ -21,7 +20,7 @@ Context::Context(uint64_t stack_size, pid_t thread_id, RoutineEntry fun)
     fprintf(stderr, "fail to assign memory\n");
     exit(EXIT_FAILURE);
   }
-  if (mprotect(block_ptr_, page_size_, PROT_NONE)) {
+  if (mprotect(block_ptr_, page_size_, PROT_NONE) == -1) {
     LOGTID("");
     fprintf(stderr, "fail to set mprotect");
     exit(EXIT_FAILURE);
@@ -29,6 +28,8 @@ Context::Context(uint64_t stack_size, pid_t thread_id, RoutineEntry fun)
   block_ptr = reinterpret_cast<uintptr_t>(block_ptr_);
   
   regs = Register{block_ptr + stack_size};
-  
-  
+};
+
+Context::~Context() {
+    free(reinterpret_cast<void*>(block_ptr));
 };

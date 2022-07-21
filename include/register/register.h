@@ -33,7 +33,7 @@ public:
   Register() = default;
   explicit Register(uint64_t stack_pointer);
   Register(const Register&) = delete;
-  Register(Register &&) = delete;
+  Register(Register &&) = default;
   Register &operator=(const Register &) = delete;
   Register &operator=(Register &&) = default;
 };
