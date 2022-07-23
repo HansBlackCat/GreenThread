@@ -18,7 +18,7 @@ private:
 public:
   pid_t tid;
   Register regs;
-  uintptr_t block_ptr;
+  uint64_t block_ptr;
   RoutineEntry routineEntry;
   
   Context() = delete;
