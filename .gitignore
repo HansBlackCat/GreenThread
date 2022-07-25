@@ -1,6 +1,7 @@
 /build*
+/out*
 /.vscode
+/.vs
 /cpm_modules
 /.idea
-/.github
 .DS_Store

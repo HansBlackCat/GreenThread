@@ -26,4 +26,4 @@ Context::Context(uint64_t stack_size, pid_t thread_id, RoutineEntry fun)
   regs = Register{block_ptr + stack_size};
 };
 
-Context::~Context() { free(reinterpret_cast<void*>(block_ptr)); };
+Context::~Context() { free((void*)(block_ptr)); };
