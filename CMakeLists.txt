@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.14...3.22)
 
 # ---- Project ----
 
+enable_language(ASM)
+
 # Note: update this to your new project's name and version
 project(
   GreenThread
@@ -39,12 +41,15 @@ CPMAddPackage(
 # automatically. Keep that in mind when changing files, or explicitly mention them here.
 file(GLOB_RECURSE headers CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/include/*.h")
 file(GLOB_RECURSE sources CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp")
-
+file(GLOB_RECURSE sources CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/source/*.S")
 # ---- Create library ----
+
 
 # Note: for header-only libraries change all PUBLIC flags to INTERFACE and create an interface
 # target: add_library(${PROJECT_NAME} INTERFACE)
 add_library(${PROJECT_NAME} ${headers} ${sources})
+set(ASM_OPTIONS "-x assembler-with-cpp")
+set(CMAKE_ASM_FLAGS "${CFLAGS} ${ASM_OPTIONS}")
 set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 20)
 
 # being a cross-platform target, we enforce standards conformance on MSVC

@@ -9,8 +9,8 @@
 #include <unordered_map>
 
 static std::list<std::shared_ptr<Context>> contexts{};
-static std::unordered_map<uint64_t, Context> context_map{};
-constinit static uint64_t dump_block_ptr;
+//static std::unordered_map<uint64_t, Context> context_map{};
+//constinit static uint64_t dump_block_ptr;
 constinit static std::optional<Register> main_register = std::nullopt;
 
 extern "C" {

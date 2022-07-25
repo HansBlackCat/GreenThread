@@ -1,7 +1,7 @@
-PROJECT_NAME = Greeter
+PROJECT_NAME = GreenThread
 CMAKE_OPTIONS = -DUSE_SANITIZER=Address -DUSE_STATIC_ANALYZER=clang-tidy
 
-.PHONY: test
+.PHONY: all
 
 standalone:
 	cmake -S standalone -B build/standalone ${CMAKE_OPTIONS}
@@ -19,4 +19,4 @@ run_standalone: build_standalone
 	./build/standalone/${PROJECT_NAME}
 
 run_test: build_test
-	CTEST_OUTPUT_ON_FAILURE=1 cmake --build build/test --target test
+	./build/test/${PROJECT_NAME}Tests
