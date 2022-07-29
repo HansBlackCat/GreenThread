@@ -31,6 +31,6 @@ Context::Context(uint64_t stack_size, pid_t thread_id, RoutineEntry fun)
 };
 
 Context::~Context() {
-  delete regs;
-  free((void *)(block_ptr));
+  free(regs);
+  free((void*)(block_ptr));
 };

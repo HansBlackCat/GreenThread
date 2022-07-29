@@ -1,5 +1,5 @@
-#include <iostream>
 
-int main() {
-  std::cerr << "Hello" << '\n';
+int main()
+{
+  int i = 10;
 }
